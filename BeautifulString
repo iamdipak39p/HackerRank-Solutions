@@ -1,0 +1,11 @@
+import re 
+
+stringA = '01001001101110111'
+stringB = '010'
+
+# Look if stringB is in stringA
+
+if stringB in stringA:
+    stringA.replace(stringB,110)
+
+print(stringA)

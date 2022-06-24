@@ -15,4 +15,4 @@ for each in cust:
 for i in range(0,len(cust)):
     if per[i]>5:
         Activetraders.append(cust[i])
-
+print(Activetraders)
